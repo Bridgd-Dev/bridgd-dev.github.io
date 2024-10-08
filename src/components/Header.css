@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav .get-started-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
+
+/* Hamburger menu styles */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Mobile view: hide nav links by default */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav a {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  /* Transform the hamburger icon into an 'X' when menu is open */
+  .nav-toggle.open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .nav-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle.open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(10px, -10px);
+  }
+}

@@ -1,0 +1,25 @@
+.cta-banner {
+    padding: 40px 20px;
+    background-color: #9ecdfa;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .cta-banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #2994f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #f9f9f9;
+  }

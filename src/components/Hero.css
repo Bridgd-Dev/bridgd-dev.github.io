@@ -1,0 +1,45 @@
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero-content {
+    max-width: 70vw;
+}
+
+.hero-headline {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.hero-subheadline {
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-student,
+.cta-business {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-student:hover,
+.cta-business:hover {
+    background-color: #0056b3;
+}
