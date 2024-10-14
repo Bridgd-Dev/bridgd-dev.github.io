@@ -5,7 +5,7 @@ import './FeaturedProjects.css';
 const FeaturedProjects = () => {
   return (
     <section className="featured-projects" id="projects">
-      <h2>Explore Our Impactful Projects</h2>
+      <h2>Explore Our Top Monthly Projects</h2>
 
       <h3 className="section-title">Social Impact Projects</h3>
       <div className="project-grid">

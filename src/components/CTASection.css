@@ -1,6 +1,6 @@
 .cta-banner {
     padding: 40px 20px;
-    background-color: #9ecdfa;
+    background-color: #5dadf7;
     color: #fff;
     text-align: center;
   }
@@ -8,6 +8,7 @@
   .cta-banner h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: white;
   }
   
   .cta-btn {

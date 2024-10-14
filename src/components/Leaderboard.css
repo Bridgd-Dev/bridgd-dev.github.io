@@ -1,0 +1,149 @@
+.leaderboard {
+    padding: 30px;
+    background-color: #cae5ff;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard li.header {
+    font-weight: bold;
+    background-color: #e0e7ff;
+    border-bottom: 2px solid #3b5998;
+    padding-right: 40px;
+}
+
+.leaderboard .header .rank,
+.leaderboard .header .name,
+.leaderboard .header .focus,
+.leaderboard .header .project,
+.leaderboard .header .points {
+    color: #333;
+}
+
+.leaderboard-inner {
+    padding: 0 15vw;
+}
+
+.leaderboard h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.leaderboard ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    align-items: center;
+}
+
+.leaderboard .dropdown-icon {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.leaderboard .dropdown-icon.expanded {
+    transform: rotate(180deg);
+}
+
+.leaderboard .student-row {
+    cursor: pointer;
+}
+
+.leaderboard .rank {
+    font-weight: bold;
+    color: #3b5998;
+    width: 10%;
+}
+
+.leaderboard .name {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 15px;
+    width: 30%;
+}
+
+.leaderboard .focus {
+    width: 30%;
+    color: #555;
+    font-size: 14px;
+}
+
+.leaderboard .project {
+    width: 20%;
+    color: #555;
+    font-size: 14px;
+}
+
+.leaderboard .points {
+    font-weight: bold;
+    color: #4caf50;
+    width: 10%;
+}
+
+.leaderboard .description {
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.leaderboard .description h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.learn-more {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #2a4373;
+}
+
+@media (max-width: 768px) {
+    .leaderboard {
+        width: 100%;
+    }
+
+    .leaderboard li.header {
+        display: none; /* Hides the header on mobile */
+    }
+
+    .leaderboard li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leaderboard .name,
+    .leaderboard .points,
+    .leaderboard .focus,
+    .leaderboard .project {
+        padding-left: 0;
+        width: auto;
+    }
+}

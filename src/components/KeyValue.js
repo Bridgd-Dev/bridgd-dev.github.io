@@ -11,22 +11,22 @@ const KeyValue = () => {
         <div className="column">
           <FontAwesomeIcon icon={faGlobe} className="icon" />
           <h3>Real-world experience</h3>
-          <p>Gain practical skills. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Acquire hands-on skills that prepare you for real challenges. Learn how to apply your knowledge practically in various environments.</p>
         </div>
         <div className="column">
           <FontAwesomeIcon icon={faGraduationCap} className="icon" />
           <h3>Enhance learning</h3>
-          <p>Improve educational outcomes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Boost your academic achievements through innovative methods. Experience tailored educational strategies that make a difference.</p>
         </div>
         <div className="column">
           <FontAwesomeIcon icon={faUsers} className="icon" />
           <h3>Collaborative Teams</h3>
-          <p>Work with multidisciplinary teams. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Engage with diverse teams across multiple disciplines. Cultivate collaboration skills essential for future career success.</p>
         </div>
         <div className="column">
           <FontAwesomeIcon icon={faGamepad} className="icon" />
           <h3>Gamification</h3>
-          <p>Earn experience points, badges, and endorsements. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Earn rewards such as badges and certifications for your achievements. Experience a fun, engaging way to track your progress.</p>
         </div>
       </div>
     </section>
