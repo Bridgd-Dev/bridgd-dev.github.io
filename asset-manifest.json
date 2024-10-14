@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brigd-website/static/css/main.62c24e95.css",
+    "main.js": "/brigd-website/static/js/main.dc03e7a5.js",
+    "static/js/488.cc0ce075.chunk.js": "/brigd-website/static/js/488.cc0ce075.chunk.js",
+    "index.html": "/brigd-website/index.html",
+    "main.62c24e95.css.map": "/brigd-website/static/css/main.62c24e95.css.map",
+    "main.dc03e7a5.js.map": "/brigd-website/static/js/main.dc03e7a5.js.map",
+    "488.cc0ce075.chunk.js.map": "/brigd-website/static/js/488.cc0ce075.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c24e95.css",
+    "static/js/main.dc03e7a5.js"
+  ]
+}
