@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -10,11 +10,18 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const serviceID = 'service_o6bxkoi';
+    const templateID = 'template_y3hx25m';
+    const publicKey = '4WlbtrX9p6AIS_2Qn';
+
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await emailjs.send(serviceID, templateID, formData, publicKey);
       alert('Message sent successfully!');
+      setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       console.error('Error sending message:', error);
+      alert('Failed to send the message. Please try again later.');
     }
   };
 
