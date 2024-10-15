@@ -32,9 +32,9 @@ const Footer = () => {
         
         <div className="footer-column">
           <h3>Contact Info</h3>
-          <p>Email: <a href="mailto:info@bridgd.com">info@bridgd.com</a></p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Address: 123 Main St, City, Country</p>
+          <p>Email: <a href="mailto:info@bridgd.com">bridgdprojects@gmail.com</a></p>
+          <p>Phone: </p>
+          <p>Address: Toronto, Canada</p>
           <p style={{ paddingTop: '20px' }}>
             <a href=""><u>Terms of Service</u></a> 
             <span style={{ margin: '0 20px' }}></span> 
