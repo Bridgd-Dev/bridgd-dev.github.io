@@ -131,7 +131,7 @@
     }
 
     .leaderboard li.header {
-        display: none; /* Hides the header on mobile */
+        display: none;
     }
 
     .leaderboard li {

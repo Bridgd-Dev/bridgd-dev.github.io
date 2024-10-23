@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Leaderboard.css';
 import students from './topTenData'; // Import the student data
 
@@ -43,8 +44,8 @@ const Leaderboard = () => {
                   <h3>Description</h3>
                   <p>{student.description}</p>
                   <h3>Corporate Endorsement</h3>
-                  <p>{student.endorsement}</p>
-                  <button className="learn-more" onClick={() => toggleDescription(index)}>Learn More</button>
+                  <p style={{ paddingBottom: '20px' }}>{student.endorsement}</p>
+                  <Link to="/projects" className="learn-more">Learn More</Link> 
                 </div>
               )}
             </div>

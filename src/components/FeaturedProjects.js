@@ -13,19 +13,19 @@ const FeaturedProjects = () => {
           <div className="image-placeholder"></div>
           <h3>Sustainable Water Solutions</h3>
           <p>Focus Area: Sustainability</p>
-          <Link to="/projects/sustainable-water-solutions" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
         <div className="project-card">
           <div className="image-placeholder"></div>
           <h3>Community Health Initiative</h3>
           <p>Focus Area: Health</p>
-          <Link to="/projects/community-health-initiative" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
         <div className="project-card">
           <div className="image-placeholder"></div>
           <h3>Green Energy Solutions</h3>
           <p>Focus Area: Energy</p>
-          <Link to="/projects/green-energy-solutions" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
       </div>
 
@@ -35,19 +35,19 @@ const FeaturedProjects = () => {
           <div className="image-placeholder"></div>
           <h3>Custom Software Development</h3>
           <p>Client: Tech Solutions Inc.</p>
-          <Link to="/projects/custom-software-development" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
         <div className="project-card">
           <div className="image-placeholder"></div>
           <h3>Web Application for E-Commerce</h3>
           <p>Client: ShopSmart Online</p>
-          <Link to="/projects/web-application-ecommerce" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
         <div className="project-card">
           <div className="image-placeholder"></div>
           <h3>CRM Integration System</h3>
           <p>Client: Global Enterprises</p>
-          <Link to="/projects/crm-integration-system" className="btn">Learn More</Link>
+          <Link to="/projects" className="btn">Learn More</Link>
         </div>
       </div>
     </section>

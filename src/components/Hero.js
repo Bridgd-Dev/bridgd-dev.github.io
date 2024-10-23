@@ -13,8 +13,12 @@ const Hero = () => {
           <Link to="/projects" className="cta-business">Post a Project</Link>
         </div>
       </div>
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
     </section>
   );
 };
+
 
 export default Hero;
